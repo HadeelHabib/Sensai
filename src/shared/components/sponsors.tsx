@@ -4,7 +4,7 @@ import React from 'react'
 
 const Sposnsors = () => {
   return (
-    <div className='w-[90%] m-auto gap-4 md:flex grid grid-cols-3 items-center justify-around'>
+    <div className='w-[90%] m-auto gap-4 grid sm:grid-cols-5 gap items-center justify-around'>
       <Image className='client-img' src={IMGS.clients1 } alt="" />
       <Image className='client-img' src={IMGS.clients2 } alt="" />
       <Image className='client-img' src={IMGS.clients3 } alt="" />

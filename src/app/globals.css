@@ -78,8 +78,8 @@
     position: relative;
     display: block;
     max-width: 100%;
-    width: auto;
     margin: 0 auto;
+    padding: 20px;
     filter: grayscale(100%);
     opacity: .7;
     transition: all .5s ease;
@@ -109,9 +109,7 @@
 }
 
 .about-img{
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
+ 
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
@@ -146,16 +144,39 @@ ul li{
 
 @media (max-width:678px){
     .button-style{
-        padding: 19px 20px
-}
-}
-
-
-
-@media (min-width: 1024px ){
+        padding: 19px 20px;
+        font-size: 15px;
 
 }
+.input-style{
+    padding: 19px 20px;
+    font-size: 15px;
+}
 
-@media (min-width: 1440 ){
+}
 
-};
+
+
+@media(min-width:678px), (max-width: 900px ){
+
+  
+}
+@media (max-width:900px){
+    .title-style{
+        font-size: 40px;
+        line-height: 64px;
+    
+    }
+    .banner{
+        
+        width:60%;
+    }
+ 
+}
+@media (max-width: 640px) {
+    .banner {
+        width:95%;
+        margin: 0  auto;
+    }
+    
+}

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="md:w-[95%] m-auto mt-[10%] mb-[5%]">
+    <div className="w-[95%] m-auto mt-[10%] mb-[5%]">
       <div className="md:flex justify-around">
         <div className="">
           <span className="subtitle-style">AI IMAGE</span>
@@ -17,19 +17,19 @@ const Hero = () => {
             Convert word into an image in mere seconds with the image <br />{" "}
             Generator. Type a detaild description
           </p>
-          <div className="flex gap-6 ">
+          <div className="flex gap-6  my-5">
             <input
               type="text"
               placeholder="Describe what you want to see"
               className="input-style"
             />
-            <Button className="button-style">Generate</Button>
+            <Button className="button-style !py-[25px] !px-[26px]">Generate</Button>
           </div>
         </div>
         <div className="mt-[-20px]">
-          <div className="flex">
+          <div className="sm:flex">
             <Image
-              className="absolute md:right-[31.5%] md:bottom-[45.5%]"
+              className="absolute md:block hidden md:right-[31.5%] md:bottom-[45.5%]"
               src={IMGS.shape1}
               alt=""
             />
@@ -40,9 +40,9 @@ const Hero = () => {
               alt=""
             />
           </div>
-          <div className="flex">
+          <div className="sm:flex">
             <Image
-              className="absolute right-[70px] bottom-20"
+              className="absolute md:block hidden right-[70px] bottom-20"
               src={IMGS.shape2}
               alt=""
             />
